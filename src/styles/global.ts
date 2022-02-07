@@ -7,6 +7,13 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  :root {
+    --white: #ffffff;
+    --white-400: #eff8ff;
+    --gray-200: #293145;
+    --blue: #0f9afe;
+  }
+
   @media (max-width: 1080px) {
     font-size: 93.75%
   }
