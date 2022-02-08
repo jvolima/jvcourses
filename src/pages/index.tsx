@@ -1,9 +1,23 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
+import { SubscribeButton } from '../components/SubscribeButton'
+import { Container } from './home'
 
 const Home: NextPage = () => {
   return (
-    <h1>Hello World</h1>
+    <Container>
+      <section>
+        <div>
+          <h2>
+            Subscribe now to  <br/>
+            have access to the best <br/>
+            <span>courses</span> available on <br/>
+            market for only $25 monthly
+          </h2>
+          <SubscribeButton />
+        </div>
+        <img src="/images/boyCoding.svg" alt="Boy coding" />
+      </section>
+    </Container>
   )
 }
 
