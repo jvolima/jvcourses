@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "./styles";
 import { FaGithub } from "react-icons/fa"
+import { FiX } from "react-icons/fi"
 
 
 export function SignInButton() {
@@ -10,17 +11,18 @@ export function SignInButton() {
     <>
       {
         isLoggedIn == false ? 
-        <Button>
+        <Button color="#0F9AFE">
           <div>
             <FaGithub className="github"/>
-            Sign in
+            Sign in with Github
           </div>
         </Button> 
         :
-        <Button>
+        <Button color="#6610F2">
           <div>
             <FaGithub className="github"/>
-            João Vitor
+            João Vitor Lima
+            <FiX className="close" />
           </div>
         </Button>
       }
