@@ -11,6 +11,7 @@ export const GlobalStyle = createGlobalStyle`
     --white: #ffffff;
     --white-400: #eff8ff;
     --gray-200: #293145;
+    --gray: #6E7275;
     --blue: #0f9afe;
   }
 
@@ -20,6 +21,10 @@ export const GlobalStyle = createGlobalStyle`
 
   @media (max-width: 720px) {
     font-size: 87.5%
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
   }
 
   body, input, select, textarea, button {
