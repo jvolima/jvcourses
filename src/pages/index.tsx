@@ -8,9 +8,9 @@ const Home: NextPage = () => {
       <section>
         <div>
           <h2>
-            Subscribe now to  <br/>
-            have access to the best <br/>
-            <span>courses</span> available on <br/>
+            Subscribe now to 
+            have access to the best 
+            <span> courses</span> available on 
             market for only $25 monthly
           </h2>
           <SubscribeButton />
